@@ -1,0 +1,20 @@
+# Ignorar ambientes virtuais
+venv/
+.venv/
+
+# Ignorar arquivos de configuração ou senhas
+.env
+
+# Ignorar qualquer pasta de teste ou arquivos temporários
+teste/
+teste2/
+teste3/
+*.pyc
+__pycache__/
+
+# Manter apenas os arquivos que você quer subir
+!auto.py
+!data.py
+!requirements.txt
+!README.md
+!images/
